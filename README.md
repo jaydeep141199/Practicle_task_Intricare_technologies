@@ -1,3 +1,53 @@
+# Practical Task — Intricate Technologies
+
+Small React application for managing products (forms, cards, search, and local storage helpers).
+
+## Prerequisites
+
+- Node.js (v14+ recommended)
+- npm (or use yarn)
+
+## Install
+
+```bash
+npm install
+```
+
+## Available Scripts
+
+- `npm start` — runs the app in development mode (open http://localhost:3000)
+- `npm run build` — builds the app for production in the `build/` folder
+- `npm test` — runs the test suite
+- `npm run eject` — ejects from Create React App (irreversible)
+
+Note: this project does not include an `npm run dev` script. Use `npm start` for development.
+
+## Project Structure
+
+- `public/` — static assets and HTML
+- `src/` — application source
+  - `components/` — React components (ProductCard, ProductForm, etc.)
+  - `utils/` — helper modules and API wrappers
+  - `validations/` — validation schemas
+
+## Running Locally
+
+1. Install dependencies: `npm install`
+2. Start dev server: `npm start`
+3. Build for production: `npm run build`
+
+## Tests
+
+Run `npm test` to execute unit tests.
+
+## Notes
+
+- Built with Create React App and Mantine UI library.
+- If you ran `npm run dev` and saw an error, switch to `npm start`.
+
+---
+
+If you want, I can also: add a short project description to `package.json`, set up a `dev` script, or create contributor guidelines.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

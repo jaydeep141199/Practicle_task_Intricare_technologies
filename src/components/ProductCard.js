@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Text, Badge, Button, Group, Stack, Box } from '@mantine/core';
-import { IconEdit, IconTrash, IconShoppingBag } from '@tabler/icons-react';
+import { IconEdit, IconTrash } from '@tabler/icons-react';
 import { getProductImage } from '../utils/localStorage';
 import { getCategoryColor } from '../utils/helpers';
 
